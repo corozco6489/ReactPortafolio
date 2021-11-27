@@ -2,7 +2,7 @@
   "name": "new",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://corozco6489.github.io/ReactPortafolio",
+  "homepage": "http://corozco6489.github.io/ReactPortafolio/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
