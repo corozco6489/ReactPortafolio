@@ -2,7 +2,6 @@
   "name": "new",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://corozco6489.github.io/ReactPortafolio/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
@@ -21,9 +20,7 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
-  "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+  "scripts": {   
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts  --openssl-legacy-provider test",
