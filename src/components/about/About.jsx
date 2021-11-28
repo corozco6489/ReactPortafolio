@@ -7,7 +7,7 @@ const About = () => {
             <div className="a-left">
                 <div className="a-card bg"></div>
                 <div className="a-card">
-                    <img src={carlos} alt="" className="a-img"/>
+                    <img loading="lazy" src={carlos} alt="" className="a-img"/>
                 </div>
             </div>
             <div className="a-right">
@@ -18,7 +18,7 @@ const About = () => {
                 Electronic Engineering is a branch of Engineering that is responsible for solving problems related to the control of industrial processes, electronic power systems, instrumentation and control, and electrical transformation.
                 </p>
                 <div className="a-award">
-                    <img src={about} alt="" className="a-award-img"/>
+                    <img loading="lazy" src={about} alt="" className="a-award-img"/>
                     <div className="a-award-texts">
                         <h4 className="a-award-title">Knowledge and Skills</h4>
                         <p className="a-award-desc">

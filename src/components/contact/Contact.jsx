@@ -42,7 +42,7 @@ const Contact = () => {
           <div className="c-info">
             <div className="c-info-item">
               <a href="https://wa.me/5930983592690" target="_blank">
-                <img src={Phone} alt="" className="c-icon" />
+                <img loading="lazy" src={Phone} alt="" className="c-icon" />
               </a>{" "}
               + 593 983592690
             </div>
@@ -51,7 +51,7 @@ const Contact = () => {
                 href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWsdJKlVfXFRhwRsJTKSvnSGXzZWmcTpLhqKxVwzHqdXhhwtwfgCrQFdzXFFBVZlfXbsSMGPq"
                 target="_blank"
               >
-                <img src={Email} alt="" className="c-icon" />
+                <img loading="lazy" src={Email} alt="" className="c-icon" />
               </a>{" "}
               corozco6489@gmail.com
             </div>
@@ -60,27 +60,27 @@ const Contact = () => {
 
 
             <div className="c-info-item">
-              <a href="https://www.youtube.com/channel/UCgR2CZLCClCdTeo_l5W53eQ" target="_blank"><img src={Youtube} alt="" className="c-icon" /></a>
+              <a href="https://www.youtube.com/channel/UCgR2CZLCClCdTeo_l5W53eQ" target="_blank"><img loading="lazy" src={Youtube} alt="" className="c-icon" /></a>
 
               ElectroDev
             </div>
 
             <div className="c-info-item">
               <a href="https://www.linkedin.com/in/carlosorozco6489/" target="_blank">
-              <img src={Linkedin} alt="" className="c-icon" />
+              <img loading="lazy" src={Linkedin} alt="" className="c-icon" />
 
               </a>
               Carlos Orozco
             </div>
 
             <div className="c-info-item">
-              <a href="https://github.com/corozco6489" target="_blank"><img src={Github} alt="" className="c-icon" /></a>
+              <a href="https://github.com/corozco6489" target="_blank"><img loading="lazy" src={Github} alt="" className="c-icon" /></a>
               corozco6489(Carlos Orozco)
             </div>
 
             
             <div className="c-info-item">
-              <img src={Address} alt="" className="c-icon" />
+              <img loading="lazy" src={Address} alt="" className="c-icon" />
               Ambato - Ecuador
             </div>
           </div>

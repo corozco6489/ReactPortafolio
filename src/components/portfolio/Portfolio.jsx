@@ -11,7 +11,7 @@ const Portfolio = ({img,link}) => {
 
             </div>
             <a href={link} target="_blank" rel="noreferrer">
-                <img src={img}alt=""className="p-img" />
+                <img loading="lazy" src={img}alt=""className="p-img" />
             </a>
            
         </div>

@@ -81,7 +81,7 @@ const Intro = () => {
       </div>
       <div className="i-right">
         <div className="i-bg"></div>
-        <img src={Me} alt="" className="i-img" loading="lazy"/>
+        <img loading="lazy" src={Me} alt="" className="i-img"/>
       </div>
     </div>
   );

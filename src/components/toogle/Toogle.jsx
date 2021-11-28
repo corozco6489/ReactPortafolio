@@ -13,8 +13,8 @@ const Toggle = () => {
   };
   return (
     <div className="t">
-      <img src={Sun} alt="" className="t-icon" />
-      <img src={Moon} alt="" className="t-icon" />
+      <img loading="lazy" src={Sun} alt="" className="t-icon" />
+      <img loading="lazy" src={Moon} alt="" className="t-icon" />
       <div
         className="t-button"
         onClick={handleClick}
