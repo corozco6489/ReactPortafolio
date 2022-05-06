@@ -2,9 +2,9 @@ import "./contact.css";
 import Phone from "../../img/whats.png";
 import Email from "../../img/mail.png";
 import Address from "../../img/gps.png";
-import Youtube from "../../img/youtube.png"
-import Linkedin from "../../img/linkedin.png"
-import Github from "../../img/github.png"
+import Youtube from "../../img/youtube.png";
+import Linkedin from "../../img/linkedin.png";
+import Github from "../../img/github.png";
 import { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import { useContext } from "react";
@@ -44,7 +44,7 @@ const Contact = () => {
               <a href="https://wa.me/5930983592690" target="_blank">
                 <img loading="lazy" src={Phone} alt="" className="c-icon" />
               </a>{" "}
-              + 593 983592690
+              + 593 983269562
             </div>
             <div className="c-info-item">
               <a
@@ -53,65 +53,67 @@ const Contact = () => {
               >
                 <img loading="lazy" src={Email} alt="" className="c-icon" />
               </a>{" "}
-              corozco6489@gmail.com
+              youremail@gmail.com
             </div>
 
-
-
-
             <div className="c-info-item">
-              <a href="https://www.youtube.com/channel/UCgR2CZLCClCdTeo_l5W53eQ" target="_blank"><img loading="lazy" src={Youtube} alt="" className="c-icon" /></a>
-
+              <a
+                href="https://www.youtube.com/channel/UCgR2CZLCClCdTeo_l5W53eQ"
+                target="_blank"
+              >
+                <img loading="lazy" src={Youtube} alt="" className="c-icon" />
+              </a>
               ElectroDev
             </div>
 
             <div className="c-info-item">
-              <a href="https://www.linkedin.com/in/carlosorozco6489/" target="_blank">
-              <img loading="lazy" src={Linkedin} alt="" className="c-icon" />
-
+              <a
+                href="https://www.linkedin.com/in/carlosorozco6489/"
+                target="_blank"
+              >
+                <img loading="lazy" src={Linkedin} alt="" className="c-icon" />
               </a>
               Carlos Orozco
             </div>
 
             <div className="c-info-item">
-              <a href="https://github.com/corozco6489" target="_blank"><img loading="lazy" src={Github} alt="" className="c-icon" /></a>
-              corozco6489(Carlos Orozco)
+              <a href="https://github.com/corozco6489" target="_blank">
+                <img loading="lazy" src={Github} alt="" className="c-icon" />
+              </a>
+              corozco6489
             </div>
 
-            
             <div className="c-info-item">
               <img loading="lazy" src={Address} alt="" className="c-icon" />
-              Ambato - Ecuador
+             Ecuador
             </div>
           </div>
         </div>
         <div className="c-right">
           <p className="c-desc">
-            <b>What's your story ?</b> 
+            <b>What's your story ?</b>
             <br />
-
             Send us an email about the concerns you have about us.
-            
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input
               style={{ background: darkMode && "#333" }}
               type="text"
               placeholder="Name"
-              name="user_name"
+              name="user_name" required
             />
             <input
               style={{ background: darkMode && "#333" }}
               type="text"
               placeholder="Subject"
-              name="user_subject"
+              name="user_subject" required
             />
 
             <input
               style={{ background: darkMode && "#333" }}
               type="text"
               placeholder="Email"
-              name="user_email"
+              name="user_email" required
             />
 
             <textarea
@@ -119,7 +121,7 @@ const Contact = () => {
               name="message"
               placeholder="Message"
               id=""
-              rows="5"
+              rows="5" required
             ></textarea>
             <button>Submit</button>
 
@@ -127,7 +129,13 @@ const Contact = () => {
           </form>
         </div>
       </div>
-      <div class="credit">Created by<a href="https://www.linkedin.com/in/carlosorozco6489/" target="_blank"><span> Carlos Orozco </span></a>  || All rights reserved</div>
+      <div class="credit">
+        Created by
+
+          <span> Carlos Orozco </span>
+
+        || All rights reserved
+      </div>
     </div>
   );
 };
